@@ -2,25 +2,25 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./indexStyle.css">
+		<link rel="stylesheet" type="text/css" href="Styles/indexStyle.css">
 	</head>
 
 	<body>
 		<div id="navbar">
-			<a href="news.html">News</a>
-			<a href="about.html">About</a>
+			<a id="a-navbar" href="index.html">Home</a>
+			<a id="a-navbar" href="news.html">News</a>
+			<a id="a-navbar" href="about.html">About</a>
 			<div class="dropdown">
 				<button class="dropbtn">Endangered species</button>
 				<div class="dropdown-content">
 					<div class="boxes">
-						<a href="Mammals.html">Mammals</a>
+						<a href="Species/Mammals.html">Mammals</a>
 					</div><div class="boxes">
-						<a href="Reptiles.html">Reptiles</a>
+						<a href="Species/Reptiles.html">Reptiles</a>
 					</div><div class="boxes">
+						<a href="Species/Birds.html">Birds</a>
 					</div><div class="boxes">
-						<a href="Birds.html">Birds</a>
-					</div><div class="boxes">
-						<a href="Plants.html">Plants</a>
+						<a href="Species/Plants.html">Plants</a>
 					</div>
 				</div>
 			</div> 
@@ -36,7 +36,7 @@
 				<div class="panels panels--row">
 					<div class="layout-panel" title="Percentage threatened within the group">
 						<div>
-							<p>Amphibians</p>
+							<strong><p>Amphibians</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" title="Percentage threatened within the group" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-amphibians-9031ab78070d1b80a7537ec8baa788814a129d149db7702f76bcf38bb34a4601.svg">
 							</div>
@@ -45,7 +45,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Mammals</p>
+							<strong><p>Mammals</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-mammals-7617735825d78d25d3b3ebc80e5cb3e4b54e83f9a41a90f8be28ce643442f2ce.svg">
 							</div>
@@ -54,7 +54,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Conifers</p>
+							<strong><p>Conifers</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-conifers-b142c401f7f4eb061949b323c5ff015526bc573f21b73cfd811bcf28637814ef.svg">
 							</div>
@@ -63,7 +63,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Birds</p>
+							<strong><p>Birds</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-birds-1c9a25ad1ae27dbbafc3f7f29c0c2ff2281452e79ac03d1ad4453fbb5e9dac10.svg">
 							</div>
@@ -72,7 +72,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Sharks &amp; Rays</p>
+							<strong><p>Sharks &amp; Rays</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-sharks-8417182ca2e61aedc243ce946e10edc4da0c07427fc5fe3b64026c2ea407dd24.svg">
 							</div>
@@ -81,7 +81,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Reef corals</p>
+							<strong><p>Reef corals</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-corals-54eaf36b5294b95b361ce378f336703b8e0b71c0e8a71ef9af8d54b963d26e9d.svg">
 							</div>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="layout-panel">
 						<div>
-							<p>Selected Crustaceans</p>
+							<strong><p>Selected Crustaceans</p></strong>
 							<div class="layout-panel-minor">
 								<img class="feature__icon" alt="" src="https://nrl.iucnredlist.org/assets/icons/taxonomy-crustaceans-02ab4506e96e6a1bd5152e49bb6a7fcb2afd4b7291a97b9658a26941e6b05b01.svg">
 							</div>
@@ -99,8 +99,8 @@
 					</div>
 				</div>
 
-				<div class="layout-baseline">
-					<div class="feature__body">
+				<div>
+					<div class="bottom_text">
 						<a class="home_bottom" href="form.html">Lets us know what are your ideas for saving the enviroment.</a>
 						<p class="home_bottom">Submit your plan and thoughts about the issue.</p>
 					</div>	

@@ -1,53 +1,22 @@
 body {
-  background-image: url("Images/background.jpg");
+  background-image: url("../Images/background.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
 
-div.news_info1 p {
-  float:right;
+.boxes {
+  display: block;
+  text-align: center;
 }
 
-div.news_info2 p {
-  float:right;
-}
-
-div.news_info2 img {
-  float:right;
-}
-
-
-div.news_info3{
-  float:left;
-}
-
-div.news_info4{
-  float:right;
-}
-
-
-img.animals {
-  size: 200px 100px;
-}
-
-div.boxes {
-   size:fixed;
-   font-size: 13px;
-}
-
-li {
+li, p {
   color: #000000;
 }
 
-p {
-  color: #000000;
-}
-
-.feature__body {
+.bottom_text {
   margin-top: 215px;
-  flex-wrap:wrap
 }
 
 div.background {
@@ -55,7 +24,7 @@ div.background {
   margin-right: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(170, 170, 170, 0.5);
   background-size: 100% 100%;
 }
 
@@ -63,11 +32,11 @@ div.background {
   background-color: #333;
 }
 
-#navbar a {
+#a-navbar {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px;
+  padding: 16px;
   text-decoration: none;
 }
 
@@ -75,14 +44,6 @@ div.background {
   background-color: #555;
   color: white;
 }
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 
 .dropbtn {
   background-color: #4CAF50;
@@ -92,39 +53,36 @@ div.background {
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: right;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 172px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   text-decoration: none;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
   display: block;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 .centered-container {
 	max-width:auto;
@@ -136,12 +94,12 @@ div.background {
 	line-height:1.1
   color: blue;
 }
+
 .layout-justify {
 	display:center;
 	flex-wrap:wrap;
 	justify-content:space-between;
   margin-top:100px;
-
 }
 
 .feature__subtitle{
